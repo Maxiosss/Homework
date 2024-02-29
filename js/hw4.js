@@ -13,6 +13,5 @@ const newText = document.querySelector(".button--change");
 const text = document.querySelector(".input--value");
 newText.textContent = text.value;
 
-const newParagraph = document.querySelector(".list__item");
-newParagraph.childNodes[0] === newParagraph.firstChild;
-newParagraph.textContent = "Element 1";
+const newParagraph = document.querySelector(".list__text");
+newParagraph.textContent = 'Element 1';
