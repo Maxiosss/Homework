@@ -1,22 +1,35 @@
+p {
+  margin: 0;
+}
 .container {
   display: flex;
   flex-direction: column;
   margin-left: 40px;
-  max-width: 300px;
-  width: 100%;
   row-gap: 10px;
+  max-width: 250px;
+  width: 100%;
 }
-form {
+.inner-container {
   display: flex;
   flex-direction: column;
-  row-gap: 10px;
+  gap: 10px;
+  padding: 10px;
 }
-input {
-  border: 3px solid blue;
-  border-radius: 3px;
+.drink {
+  border: 2px solid burlywood;
 }
-button {
-  border: 3px solid black;
-  border-radius: 3px;
-  background-color: yellow;
+.week {
+  border: 2px dashed black;
+}
+.season {
+  border: 2px solid red;
+}
+.days {
+  border: 2px dashed orange;
+}
+.color {
+  border: 2px solid blue;
+}
+.calculator {
+  border: 2px dashed green;
 }

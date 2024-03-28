@@ -58,3 +58,56 @@
       </div>
     </div>
     <script src="./js/hw5.js"></script>
+
+
+      hw6
+        <section class="container">
+      <input type="text" class="input__text--first" />
+
+      <input type="text" class="input__text--second" />
+
+      <button class="text--check">Перевірити чи заповнені поля</button>
+
+      <input type="number" class="input__number--first" />
+
+      <input type="number" class="input__number--second" />
+
+      <button class="number--check">
+        Перевірити чи сума чисел дорівнює 10
+      </button>
+
+      <input type="text" class="input__js" />
+
+      <button class="js--check">Перевірка чи введено слово JavaScript</button>
+
+      <form class="form--num">
+        <input type="text" class="input-form__num" />
+
+        <button class="form-num--check">
+          Чи число входить в діапазон від 10 до 20
+        </button>
+      </form>
+
+      <form class="form-data">
+        <label>
+          Name
+          <input type="text" class="input-form__name" required/>
+        </label>
+
+        <label>
+          Email
+          <input type="text" class="input-form__email" required/>
+        </label>
+
+        <label>
+          Password
+          <input
+            type="password"
+            class="input-form__password"
+            required
+          />
+        </label>
+        <button class="verification">Перевірка</button>
+      </form>
+    </section>
+    <script src="./js/hw6.js"></script>

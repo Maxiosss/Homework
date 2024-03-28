@@ -8,54 +8,71 @@
   </head>
   <body>
     <section class="container">
-      <input type="text" class="input__text--first" />
+      <div class="drink inner-container">
+        <label for="drink">Оберіть напій:</label>
+        <select id="drink">
+          <option value="default">Ви не обрали</option>
+          <option value="coffee">Кава</option>
+          <option value="tea">Чай</option>
+          <option value="juice">Сік</option>
+        </select>
 
-      <input type="text" class="input__text--second" />
+        <p class="drink-message"></p>
+      </div>
+      <div class="week inner-container">
+        <input type="text" class="day" placeholder="Введіть довільний день" />
+        <button class="day--check">Перевірити день</button>
+        <p class="message-day"></p>
+      </div>
+      <div class="season inner-container">
+        <input
+          type="text"
+          class="input-season"
+          placeholder="Введіть місяць цифрами"
+        />
+        <button class="season--check">Перевірити</button>
+        <p class="season-message"></p>
+      </div>
+      <div class="days inner-container">
+        <input
+          type="text"
+          class="input-days"
+          placeholder="Введіть місяць цифрами"
+        />
+        <button class="days--check">Перевірити</button>
+        <p class="day-message"></p>
+      </div>
+      <div class="color inner-container">
+        <input type="text" class="input-color" />
+        <button class="color--check">Перевірити</button>
+        <p class="color-message">Введіть колір: червоний,синій або зелений</p>
+      </div>
+      <div class="calculator inner-container">
+        <label for="operation-select">Оберіть операцію:</label>
+        <select id="operation-select">
+          <option value="default">Ви не обрали</option>
+          <option value="plus">+ (плюс)</option>
+          <option value="minus">- (мінус)</option>
+          <option value="multiplication">* (множення)</option>
+          <option value="division">/ (ділення)</option>
+        </select>
 
-      <button class="text--check">Перевірити чи заповнені поля</button>
-
-      <input type="number" class="input__number--first" />
-
-      <input type="number" class="input__number--second" />
-
-      <button class="number--check">
-        Перевірити чи сума чисел дорівнює 10
-      </button>
-
-      <input type="text" class="input__js" />
-
-      <button class="js--check">Перевірка чи введено слово JavaScript</button>
-
-      <form class="form--num">
-        <input type="text" class="input-form__num" />
-
-        <button class="form-num--check">
-          Чи число входить в діапазон від 10 до 20
-        </button>
-      </form>
-
-      <form class="form-data">
-        <label>
-          Name
-          <input type="text" class="input-form__name" required/>
-        </label>
-
-        <label>
-          Email
-          <input type="text" class="input-form__email" required/>
-        </label>
-
-        <label>
-          Password
-          <input
-            type="password"
-            class="input-form__password"
-            required
-          />
-        </label>
-        <button class="verification">Перевірка</button>
-      </form>
+        <input
+          type="text"
+          class="first-num"
+          placeholder="Введіть перше число"
+        />
+        <p class="operation-message"></p>
+        <input
+          type="text"
+          class="second-num"
+          placeholder="Введіть друге число"
+        />
+        <button class="result__btn">Результат</button>
+        <p class="result"></p>
+      </div>
     </section>
-    <script src="./js/hw6.js"></script>
+
+    <script src="./js/hw7.js"></script>
   </body>
 </html>

@@ -50,3 +50,29 @@ body.show-modal .modal {
 #validation-input.invalid {
   border-color: #f44336;
 }
+
+
+hw6
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  max-width: 300px;
+  width: 100%;
+  row-gap: 10px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+input {
+  border: 3px solid blue;
+  border-radius: 3px;
+}
+button {
+  border: 3px solid black;
+  border-radius: 3px;
+  background-color: yellow;
+}
