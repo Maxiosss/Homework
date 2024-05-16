@@ -183,3 +183,19 @@ hw7
     </section>
 
     <script src="./js/hw7.js"></script>
+
+    hw10
+
+
+
+        <button id="helloButton">Click me!</button>
+
+    <p>Вгадайте число від 1 до 100</p>
+    <input type="text" id="guessField" placeholder="Введіть свій варіант" />
+    <button type="button" onclick="checkGuess()">Перевірити</button>
+    <p id="guessResult"></p>
+
+        <button id="clickButton">Click me!</button>
+    <p id="clickCountDisplay">Clicks: 0</p>
+
+    <script src="./js/hw12(10).js"></script>
