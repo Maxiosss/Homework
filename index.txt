@@ -199,3 +199,13 @@ hw7
     <p id="clickCountDisplay">Clicks: 0</p>
 
     <script src="./js/hw12(10).js"></script>
+
+
+    // 13
+
+        <div class="movie-info">
+      <p class="title"></p>
+      <p class="director"></p>
+      <p class="year"></p>
+      <p class="rating"></p>
+    </div>
