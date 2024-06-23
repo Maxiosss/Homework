@@ -114,3 +114,7 @@ p {
 .calculator {
   border: 2px dashed green;
 }
+
+.high-rating{
+  color: green;
+}
