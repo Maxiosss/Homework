@@ -7,67 +7,45 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <ul class="gallery">
-      <li>
-        <img
-          class="image"
-          src="https://images.pexels.com/photos/4617294/pexels-photo-4617294.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
-"
-          alt="зображення"
-        />
+    <ul id="categories">
+      <li class="item">
+        <h2>Тварини</h2>
+        <ul>
+          <li>Кіт</li>
+          <li>Хом'як</li>
+          <li>Кінь</li>
+          <li>Папуга</li>
+        </ul>
       </li>
-      <li>
-        <img
-          class="image"
-          src="https://images.pexels.com/photos/4617294/pexels-photo-4617294.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
-"
-          alt="зображення"
-        />
+      <li class="item">
+        <h2>Продукти</h2>
+        <ul>
+          <li>Хліб</li>
+          <li>Петрушка</li>
+          <li>Сир</li>
+        </ul>
       </li>
-      <li>
-        <img
-          class="image"
-          src="https://images.pexels.com/photos/11815778/pexels-photo-11815778.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
-"
-          alt="зображення"
-        />
-      </li>
-      <li>
-        <img
-          class="image"
-          src="https://images.pexels.com/photos/6195166/pexels-photo-6195166.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-          alt="зображення"
-        />
-      </li>
-      <li>
-        <img
-          class="image"
-          src="https://images.pexels.com/photos/6957926/pexels-photo-6957926.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-          alt="зображення"
-        />
-      </li>
-      <li>
-        <img
-          class="image"
-          src="https://images.pexels.com/photos/15520825/pexels-photo-15520825.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-          alt="зображення"
-        />
+      <li class="item">
+        <h2>Технології</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>Node</li>
+        </ul>
       </li>
     </ul>
-    <div class="full-image-container">
-      <img
-        class="full-image"
-        src="https://images.pexels.com/photos/6195166/pexels-photo-6195166.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-        alt="Повноекранне зображення"
-      />
-    </div>
 
-    <div id="controls">
-      <input type="number" min="0" max="100" step="1" />
-      <button type="button" data-action="render">Створити</button>
-      <button type="button" data-action="destroy">Очистити</button>
+    <ul id="ingredients"></ul>
+
+    <ul id="gallery" class="gallery"></ul>
+
+    <div id="counter">
+      <button type="button" data-action="decrement">-1</button>
+      <span id="value">0</span>
+      <button type="button" data-action="increment">+1</button>
     </div>
-    <div id="boxes"></div>
-    <script src="./js/hw20.js"></script>
+    <script src="./js/hw18.js"></script>
   </body>
 </html>
